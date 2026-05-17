@@ -7,3 +7,9 @@ Published URL:
 ```text
 https://tarunag10.github.io/fittrack-privacy-policy/
 ```
+
+Support URL:
+
+```text
+https://tarunag10.github.io/fittrack-privacy-policy/support/
+```
