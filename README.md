@@ -13,3 +13,9 @@ Support URL:
 ```text
 https://tarunag10.github.io/fittrack-privacy-policy/support/
 ```
+
+Marketing URL:
+
+```text
+https://tarunag10.github.io/fittrack-privacy-policy/app/
+```

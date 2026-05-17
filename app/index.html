@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FitTrack</title>
+  <meta name="description" content="FitTrack is an iPhone workout, recovery, and wellness tracker.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211b;
+      --muted: #53635a;
+      --line: #dbe5df;
+      --surface: #f7faf8;
+      --accent: #0b6b4b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 64px 0 72px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 32px;
+      padding-bottom: 28px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2.4rem, 8vw, 4.8rem);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 1.2rem;
+      letter-spacing: 0;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+    }
+
+    .summary,
+    .muted {
+      color: var(--muted);
+    }
+
+    .summary {
+      max-width: 720px;
+      font-size: 1.12rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-top: 20px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background: var(--surface);
+    }
+
+    .tile h2 {
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="muted">Workout, recovery, and wellness tracker for iPhone</p>
+      <h1>FitTrack</h1>
+      <p class="summary">Plan workouts, track recovery, log wellness habits, and keep your fitness routine close at hand with Apple Health, widgets, Live Activities, quick actions, and private iCloud backup.</p>
+    </header>
+
+    <div class="grid">
+      <section class="tile">
+        <h2>Training</h2>
+        <p>Create workout plans, browse exercises, run active sessions, and review completed workouts over time.</p>
+      </section>
+
+      <section class="tile">
+        <h2>Recovery</h2>
+        <p>Use posture checklists, physio routines, stretching tools, and pain logs to support a more balanced routine.</p>
+      </section>
+
+      <section class="tile">
+        <h2>Wellness</h2>
+        <p>Track hydration, body weight, body measurements, Apple Health snapshots, and progress trends in one place.</p>
+      </section>
+
+      <section class="tile">
+        <h2>Privacy</h2>
+        <p>FitTrack does not sell personal data, show ads, or use third-party tracking. Health and iCloud features are optional.</p>
+      </section>
+    </div>
+
+    <section>
+      <h2>Links</h2>
+      <p><a href="https://tarunag10.github.io/fittrack-privacy-policy/">Privacy Policy</a></p>
+      <p><a href="https://tarunag10.github.io/fittrack-privacy-policy/support/">Support</a></p>
+    </section>
+  </main>
+</body>
+</html>
